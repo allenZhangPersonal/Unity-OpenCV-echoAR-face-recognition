@@ -20,7 +20,9 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). The recognizer will save the recognizer .xml under [images](/Assets/Images) folder. Each folder under the [images](/Assets/Images) folder will possess the label name of a specific subject that will be trained. It is suggested to have your positive subject names as well as an "unknown" folder specifically containing images of random people to train as negative examples. For more information on training, please consultthe following documents.
 
 OpenCV documentation and samples: http://docs.opencv.org/3.0-beta/modules/face/doc/facerec/tutorial/facerec_video_recognition.html
+
 Training sets overview: https://www.kairos.com/blog/60-facial-recognition-databases
+
 Another OpenCV doc: http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html#face-database
 
 
