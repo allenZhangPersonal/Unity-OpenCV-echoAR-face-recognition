@@ -17,7 +17,13 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 
 ## Training own face recognizer
 
-Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). The training function will save the recognizer .xml under [images](/Assets/Images) folder. Each folder under the [images](/Assets/Images) folder will possess the label name of a specific subject that will be trained. It is suggested to have your positive subject names as the folder titles as well as an "unknown" folder specifically containing images of random people to train as negative examples. For more information on training, please consult the following documents.
+Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). 
+
+The training function will save the recognizer .xml under [images](/Assets/Images) folder. Each folder under the [images](/Assets/Images) folder will possess the label name of a specific subject that will be trained. It is suggested to have your positive subject names as the folder titles as well as an "unknown" folder specifically containing images of random people to train as negative examples. 
+
+The current recognizer will only work on my face as it is only trained on my own images with limited data. Please create your own folders with your name as well as images of yourself to recognize your own face correctly.
+
+For more information on training, please consult the following documents.
 
 OpenCV documentation and samples: http://docs.opencv.org/3.0-beta/modules/face/doc/facerec/tutorial/facerec_video_recognition.html
 
@@ -37,10 +43,8 @@ Demo
 
 ![face_recognition](https://user-images.githubusercontent.com/85501187/121783900-5c044180-cb7f-11eb-81d5-031f75122072.gif)
 
-Videos
-![models](https://user-images.githubusercontent.com/85501187/121057692-8a53dc80-c78d-11eb-8e87-982a5307d2b3.JPG)
-
-Metadata
-![metadata](https://user-images.githubusercontent.com/85501187/121057656-7c9e5700-c78d-11eb-8dac-b3bac4d7826f.JPG)
+Model/Metadata
+![model](https://user-images.githubusercontent.com/85501187/121785879-71329d80-cb8a-11eb-8705-a32ef85a0ed5.JPG)
+![metadata](https://user-images.githubusercontent.com/85501187/121785893-7db6f600-cb8a-11eb-8623-e95204d9eebf.JPG)
 
 Demo created by [Allen Zhang](https://github.com/allenZhangPersonal)
