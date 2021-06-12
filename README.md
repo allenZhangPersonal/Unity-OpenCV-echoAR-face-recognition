@@ -7,25 +7,22 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 ## Setup
 * Create a new Unity project.
 * Clone the current repository sample code.
-* Open the 'faceSwap' sample scene under `changeFaceVideo\Assets\Scenes`.
-* [Set the API key](https://docs.echoar.xyz/unity/using-the-sdk) in the `echoAR.cs` script inside the `echoAR\echoAR.prefab` using the the Inspector.
+* Open the 'faceRecognizer' sample scene under `Assets\OpenCV+Unity\Demo\Face_Recognizer`.
+* [Set the API key](https://docs.echoar.xyz/unity/using-the-sdk) in the `echoAR.cs` script inside the `Assets\echoAR\echoAR.prefab` using the Inspector.
 * [Add the model](https://docs.echoar.xyz/quickstart/add-a-3d-model) from the [videos](/Models) folder to the console.
 * [Add all the metadata](https://docs.echoar.xyz/web-console/manage-pages/data-page/how-to-add-data#adding-metadata) listed in the [metadata](/Metadata) folder.
 
-## Use own videos
-
-Create your own csv file per video and follow the same format as the metadata provided for this demo.
-
-Edit buttonHandler.cs script under echoAR gameobject and make sure to add the 'name' property in your .csv file into the string array 'videos'
-
 ## Build & Run
-* [Build and run the AR application](https://docs.echoar.xyz/unity/adding-ar-capabilities#4-build-and-run-the-ar-application). Verify that the `Assets\Scenes\faceSwap` scene is ticked in the `Scenes in Build` list and click `Build And Run`.
+* [Build and run the AR application](https://docs.echoar.xyz/unity/adding-ar-capabilities#4-build-and-run-the-ar-application). Verify that the `Assets\OpenCV+Unity\Demo\Face_Recognizer\Face_Recognizer` scene is ticked in the `Scenes in Build` list and click `Build And Run`.
 
-## Instructions
+## Training own face recognizer
 
-Switch face mesh video through UI arrow buttons on the bottom of the screen.
+Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). The recognizer will save the recognizer .xml under [images](/Assets/Images) folder. Each folder under the [images](/Assets/Images) folder will possess the label name of a specific subject that will be trained. It is suggested to have your positive subject names as well as an "unknown" folder specifically containing images of random people to train as negative examples. For more information on training, please consultthe following documents.
 
-Switch face mesh video through leaving the screen and re-entering the screen or covering your face and uncovering your face.
+OpenCV documentation and samples: http://docs.opencv.org/3.0-beta/modules/face/doc/facerec/tutorial/facerec_video_recognition.html
+Training sets overview: https://www.kairos.com/blog/60-facial-recognition-databases
+Another OpenCV doc: http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html#face-database
+
 
 ## Learn more
 Refer to our [documentation](https://docs.echoar.xyz/unity/) to learn more about how to use Unity and echoAR.
