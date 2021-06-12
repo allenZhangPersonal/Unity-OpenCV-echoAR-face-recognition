@@ -15,7 +15,7 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 ## Build & Run
 * [Build and run the AR application](https://docs.echoar.xyz/unity/adding-ar-capabilities#4-build-and-run-the-ar-application). Verify that the `Assets\OpenCV+Unity\Demo\Face_Recognizer\Face_Recognizer` scene is ticked in the `Scenes in Build` list and click `Build And Run`.
 
-## Training own face recognizer
+## Training your own face recognizer
 
 Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). 
 
