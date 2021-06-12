@@ -9,7 +9,7 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 * Clone the current repository sample code.
 * Open the 'faceRecognizer' sample scene under `Assets\OpenCV+Unity\Demo\Face_Recognizer`.
 * [Set the API key](https://docs.echoar.xyz/unity/using-the-sdk) in the `echoAR.cs` script inside the `Assets\echoAR\echoAR.prefab` using the Inspector.
-* [Add the model](https://docs.echoar.xyz/quickstart/add-a-3d-model) from the [videos](/Models) folder to the console.
+* [Add the model](https://docs.echoar.xyz/quickstart/add-a-3d-model) from the [models](/Models) folder to the console.
 * [Add all the metadata](https://docs.echoar.xyz/web-console/manage-pages/data-page/how-to-add-data#adding-metadata) listed in the [metadata](/Metadata) folder.
 
 ## Build & Run
