@@ -17,7 +17,13 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 
 ## Training own face recognizer
 
-Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). The training function will save the recognizer .xml under [images](/Assets/Images) folder. Each folder under the [images](/Assets/Images) folder will possess the label name of a specific subject that will be trained. It is suggested to have your positive subject names as the folder titles as well as an "unknown" folder specifically containing images of random people to train as negative examples. For more information on training, please consult the following documents.
+Open `Assets\camDetector.cs` script and read the commented notes at the bottom of the script for function definition: private void TrainRecognizer(string root). 
+
+The training function will save the recognizer .xml under [images](/Assets/Images) folder. Each folder under the [images](/Assets/Images) folder will possess the label name of a specific subject that will be trained. It is suggested to have your positive subject names as the folder titles as well as an "unknown" folder specifically containing images of random people to train as negative examples. 
+
+The current recognizer will only work on my face as it is only trained on my own images with limited data. Please create your own folders with your name as well as images of yourself to recognize your own face correctly.
+
+For more information on training, please consult the following documents.
 
 OpenCV documentation and samples: http://docs.opencv.org/3.0-beta/modules/face/doc/facerec/tutorial/facerec_video_recognition.html
 
