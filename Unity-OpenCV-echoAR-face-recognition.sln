@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5a682b6f-880a-aced-1daf-ba2533fbfaf9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siccity.GLTFUtility", "Siccity.GLTFUtility.csproj", "{9cea124c-1811-9efb-1c47-c3e32c65515b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFast", "glTFast.csproj", "{1f388a32-4354-0812-7733-91f7062da563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFastSchema", "glTFastSchema.csproj", "{99a024c7-6c43-cb57-c002-7ac06819825b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFastFakeSchema", "glTFastFakeSchema.csproj", "{6edef087-63eb-101a-a428-e40d341997e2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFSampleModels", "glTFSampleModels.csproj", "{1d682cae-712e-e972-6d55-395e61b9c8f7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glTFastTests", "glTFastTests.csproj", "{6ef398d3-8e2c-f7e3-eab9-8fe02276d937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draco", "Draco.csproj", "{f5bf9ed4-5534-c981-1bc9-f3306e2c4f0f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DracoEditor", "DracoEditor.csproj", "{b650b56f-65c8-858e-c874-2a547e84f8f7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siccity.GLTFUtility.Editor", "Siccity.GLTFUtility.Editor.csproj", "{21da3ded-8d8c-1800-5c23-2e1e3f9a8142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6249091c-43a8-b6c5-2aed-2ef939834de0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5a682b6f-880a-aced-1daf-ba2533fbfaf9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5a682b6f-880a-aced-1daf-ba2533fbfaf9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9cea124c-1811-9efb-1c47-c3e32c65515b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9cea124c-1811-9efb-1c47-c3e32c65515b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1f388a32-4354-0812-7733-91f7062da563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1f388a32-4354-0812-7733-91f7062da563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99a024c7-6c43-cb57-c002-7ac06819825b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99a024c7-6c43-cb57-c002-7ac06819825b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6edef087-63eb-101a-a428-e40d341997e2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6edef087-63eb-101a-a428-e40d341997e2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1d682cae-712e-e972-6d55-395e61b9c8f7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1d682cae-712e-e972-6d55-395e61b9c8f7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ef398d3-8e2c-f7e3-eab9-8fe02276d937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ef398d3-8e2c-f7e3-eab9-8fe02276d937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f5bf9ed4-5534-c981-1bc9-f3306e2c4f0f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f5bf9ed4-5534-c981-1bc9-f3306e2c4f0f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b650b56f-65c8-858e-c874-2a547e84f8f7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b650b56f-65c8-858e-c874-2a547e84f8f7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21da3ded-8d8c-1800-5c23-2e1e3f9a8142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21da3ded-8d8c-1800-5c23-2e1e3f9a8142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6249091c-43a8-b6c5-2aed-2ef939834de0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6249091c-43a8-b6c5-2aed-2ef939834de0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
