@@ -1,5 +1,5 @@
 # Unity-OpenCV-echoAR-face-recognition
-Simple face detection+recognition demo utilizing Unity, openCV, and echoAR implemented in Unity 2019.4.26f1
+Simple face detection+recognition demo utilizing Unity, openCV, and echoAR implemented in Unity 2019.4.26f1 on Android
 
 ## Register
 Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register).
